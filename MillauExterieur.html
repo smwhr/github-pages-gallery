@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Vacances 2020 - MillauExterieur</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    
+    <div id="container">
+    
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">Vacances 2020</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="MillauExterieur.html">MillauExterieur</a>
+      </nav>
+    
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums">
+      </div>
+    
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+          
+            <li data-src="media/large/MillauExterieur/IMG_0366.jpg"
+                data-sub-html=""
+                data-download-url="media/original/MillauExterieur/IMG_0366.jpg"
+                
+                data-filename="IMG_0366.jpg"
+          
+              >
+              <a href="media/original/MillauExterieur/IMG_0366.jpg">
+                <img src="media/thumbs/MillauExterieur/IMG_0366.jpg"
+                     width="120"
+                     height="120"
+                     alt="IMG_0366.jpg" />
+              </a>
+            </li>      
+            <li data-src="media/large/MillauExterieur/IMG_0375.jpg"
+                data-sub-html=""
+                data-download-url="media/original/MillauExterieur/IMG_0375.jpg"
+                
+                data-filename="IMG_0375.jpg"
+          
+              >
+              <a href="media/original/MillauExterieur/IMG_0375.jpg">
+                <img src="media/thumbs/MillauExterieur/IMG_0375.jpg"
+                     width="120"
+                     height="120"
+                     alt="IMG_0375.jpg" />
+              </a>
+            </li>      
+            <li data-src="media/large/MillauExterieur/IMG_0378.jpg"
+                data-sub-html=""
+                data-download-url="media/original/MillauExterieur/IMG_0378.jpg"
+                
+                data-filename="IMG_0378.jpg"
+          
+              >
+              <a href="media/original/MillauExterieur/IMG_0378.jpg">
+                <img src="media/thumbs/MillauExterieur/IMG_0378.jpg"
+                     width="120"
+                     height="120"
+                     alt="IMG_0378.jpg" />
+              </a>
+            </li>      
+            <li data-src="media/large/MillauExterieur/IMG_0421.jpg"
+                data-sub-html=""
+                data-download-url="media/original/MillauExterieur/IMG_0421.jpg"
+                
+                data-filename="IMG_0421.jpg"
+          
+              >
+              <a href="media/original/MillauExterieur/IMG_0421.jpg">
+                <img src="media/thumbs/MillauExterieur/IMG_0421.jpg"
+                     width="120"
+                     height="120"
+                     alt="IMG_0421.jpg" />
+              </a>
+            </li>  </ul>
+    
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>(c)2020 les Daniel/Zamor</p>
+      </footer>
+    
+    </div>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>
